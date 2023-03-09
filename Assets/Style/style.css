@@ -1,0 +1,130 @@
+/* variable css */
+:root {
+    /* --background-color: #ffffff; */
+    --black-blue: #1B262C;
+    --navy-blue: #0F4C75;
+    --blue: #3282B8;
+    --light-blue: #BBE1FA;
+    --golden: #bc9864;
+    --off-black: #060606;
+    --grey: #666666;
+    --dark-grey: #141414;
+    --off-white: #f5f5f5;
+    --sonic-silver: hsl(0, 0%, 44%);
+    --white: #ffffff;
+    --black: #000000;
+}
+
+/* Reset all web parameters */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a,
+img,
+input,
+button,
+.icon {
+    display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: var(--off-white);
+}
+
+/* ---- navigation bar logo ---- */
+.logo label a {
+    color: var(--black);
+}
+
+.logo label {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/* ---- navigation bar buttons ---- */
+.nav-actions {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    transition: 500ms;
+}
+
+.nav-actions button {
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+
+.nav-btn {
+    position: relative;
+    width: 50px;
+    text-align: center;
+}
+
+.nav-actions button p {
+    color: var(--grey);
+    font-size: 12px;
+}
+
+.nav-btn .icon {
+    margin-inline: auto;
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: var(--black);
+}
+
+@media (max-width: 420px) {
+    header {
+        background-color: var(--white);
+    }
+
+    .logo label a {
+        text-align: center;
+        font-weight: 700;
+    }
+
+    .nav-actions {
+        background-color: var(--off-white);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 5px;
+        padding-block: 16px 10px;
+        box-shadow: 0 -2px 20px hsla(0, 0%, 0%, 0.1);
+        z-index: 1;
+    }
+}
+
+/* Scroll Bar CSS */
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: var(--off-black);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--grey);
+    border-radius: 10px;
+}
