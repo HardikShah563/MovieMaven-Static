@@ -20,7 +20,7 @@
     margin: 10vh auto;
 }
 
-.form * {
+.form input, .form button {
     width: 100%;
 }
 
@@ -57,20 +57,13 @@
 .below-form {
     display: flex;
     justify-content: center;
-    gap: 5px;
 }
 
-.below-form label {
-    text-align: right;
-}
+
 
 @media (max-width: 500px) {
     .form {
         width: 90%;
-    }
-
-    .below-form {
-        gap: 2px;
     }
 
     p {
