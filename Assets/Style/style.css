@@ -93,18 +93,22 @@ nav {
     color: var(--black);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     header {
         background-color: var(--white);
     }
 
+    nav {
+        padding: 10px 20px;
+    }
+
     .logo label a {
         text-align: center;
-        font-weight: 700;
+        font-size: 24px;
     }
 
     .nav-actions {
-        background-color: var(--off-white);
+        background-color: var(--light-blue);
         position: fixed;
         bottom: 0;
         left: 0;
