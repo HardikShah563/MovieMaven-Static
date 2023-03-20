@@ -53,6 +53,10 @@ nav {
 }
 
 /* ---- navigation bar logo ---- */
+.logo label {
+    display: flex;
+}
+
 .logo label a {
     color: var(--black);
 }
