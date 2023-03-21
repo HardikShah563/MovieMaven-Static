@@ -29,6 +29,9 @@ html {
 }
 
 .all-movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     width: 80%;
     margin: 5vh auto;
 }
@@ -37,9 +40,9 @@ html {
     width: 300px;
     min-height: 220px;
     padding: 20px;
-    margin: 20px;
+    margin: 5px;
     border: 1px solid var(--black);
-    border-radius: 20px;
+    border-radius: 8px;
     background-color: var(--very-light-blue);
 }
 
@@ -67,7 +70,7 @@ html {
     border-radius: 8px;
 }
 
-.popup-modal {
+/* .popup-modal {
     position: absolute;
     top: 5vh;
     left: 5vw;
@@ -78,7 +81,10 @@ html {
     background-color: var(--very-light-blue);
     opacity: 0.9;
     border: 1px solid var(--black);
-    border-radius: 60px;
+    border-radius: 20px;
+    display: none;
+    transition: ease-in-out;
+    transition-duration: 200ms;
 }
 
 .view-none {
@@ -92,4 +98,37 @@ html {
 .popup-modal p {
     width: 50%;
     margin: 10vh auto;
+}
+
+.popup-modal i {
+    display: flex;
+    justify-content: right;
+}
+
+@media (max-width: 800px) {
+    .all-movies {
+        width: 98vw;
+    }
+
+    .popup-modal {
+        height: 80vh;
+    }
+
+    .popup-modal p {
+        margin: 5vh auto;
+        width: 90%;
+    }
+} */
+
+.stats-button {
+    display: flex;
+    justify-content: center;
+}
+
+.stats-link {
+    background-color: var(--very-light-blue);
+    border: 2px solid var(--light-blue);
+    border-radius: 12px;
+    padding: 20px 40px;
+    color: var(--black);
 }
