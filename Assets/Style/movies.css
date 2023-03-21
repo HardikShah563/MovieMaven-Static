@@ -1,20 +1,3 @@
-/* variable css */
-:root {
-    /* --background-color: #ffffff; */
-    --black-blue: #1B262C;
-    --navy-blue: #0F4C75;
-    --blue: #3282B8;
-    --light-blue: #BBE1FA;
-    --golden: #bc9864;
-    --off-black: #060606;
-    --grey: #666666;
-    --dark-grey: #141414;
-    --off-white: #f5f5f5;
-    --sonic-silver: hsl(0, 0%, 44%);
-    --white: #ffffff;
-    --black: #000000;
-}
-
 /* Reset all web parameters */
 * {
     margin: 0;
@@ -48,4 +31,65 @@ html {
 .all-movies {
     width: 80%;
     margin: 5vh auto;
+}
+
+.venue {
+    width: 300px;
+    min-height: 220px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid var(--black);
+    border-radius: 20px;
+    background-color: var(--very-light-blue);
+}
+
+.venue-name {
+    font-size: 20px;
+}
+
+.show {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px auto;
+}
+
+.venue-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.venue-buttons button {
+    width: 120px;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+}
+
+.popup-modal {
+    position: absolute;
+    top: 5vh;
+    left: 5vw;
+    margin: auto auto;
+    padding: 40px;
+    width: 90vw;
+    height: 90vh;
+    background-color: var(--very-light-blue);
+    opacity: 0.9;
+    border: 1px solid var(--black);
+    border-radius: 60px;
+}
+
+.view-none {
+    display: none;
+}
+
+.view-block {
+    display: block;
+}
+
+.popup-modal p {
+    width: 50%;
+    margin: 10vh auto;
 }

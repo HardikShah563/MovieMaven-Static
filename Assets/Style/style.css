@@ -1,10 +1,16 @@
 /* variable css */
 :root {
-    /* --background-color: #ffffff; */
+    --background-light: #ffffff;
+    --background-dark: #202020;
+    --light-text: #000000;
+    --dark-text: #ffffff;
     --black-blue: #1B262C;
     --navy-blue: #0F4C75;
     --blue: #3282B8;
-    --light-blue: #BBE1FA;
+    --sky-blue: #81cafa;
+    --light-blue: #cce7f8;
+    --very-light-blue: #e1f3ff;
+    --light-red: #ff7377;
     --golden: #bc9864;
     --off-black: #060606;
     --grey: #666666;
@@ -126,6 +132,25 @@ nav {
         z-index: 1;
     }
 }
+
+/* Common CSS */
+.title {
+    text-align: center;
+    margin: 5vh auto;
+}
+
+.blue-bg {
+    background-color: var(--sky-blue);
+}
+
+.red-bg {
+    background-color: var(--light-red);
+}
+
+
+/* Footer CSS */
+/* .footer {} */
+
 
 /* Scroll Bar CSS */
 ::-webkit-scrollbar {
