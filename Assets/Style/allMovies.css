@@ -1,0 +1,134 @@
+
+/* 
+.venue {
+    margin: 20px auto;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+}
+
+.show {
+    padding: 10px;
+    width: fit-content;
+    background-color: var(--very-light-blue);
+    border: 1px solid var(--black);
+    border-radius: 8px;
+    padding: 10px 5px;
+}
+
+.show-details {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    width: 250px;
+}
+
+.book-ticket {
+    width: 92%;
+    margin: 10px;
+    height: 40px;
+    background-color: var(--sky-blue);
+    border: 1px solid var(--blue);
+    border-radius: 8px;
+}
+
+.ticket-details {
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ticket {
+    padding: 10px 15px;
+    border: 1px dashed var(--black);
+    border-radius: 8px;
+} 
+*/
+
+.venue {
+    width: 90vw;
+    padding: 10px;
+    margin: 2vh auto;
+    border: 1px solid var(--black);
+    border-radius: 12px;
+}
+
+.venue-title {
+    padding: 10px;
+}
+
+.all-shows {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.show {
+    min-width: 240px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid var(--black);
+    border-radius: 8px;
+}
+
+.show-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.ticket-details {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+    margin: 10px auto;
+}
+
+.ticket {
+    padding: 10px 15px;
+    border: 1px dashed var(--black);
+    border-radius: 8px;
+}
+
+.ticket-button {
+    width: 100%;
+    height: 40px;
+    margin: 10px auto;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--black);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--light-blue);
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cancellation {
+    display: flex;
+    justify-content: center;
+    color: var(--sonic-silver);
+    /* margin: 10px auto; */
+    font-size: 12px;
+}
+
+.yellow {
+    color: var(--yellow);
+}
+
+
+@media (max-width: 800px) {
+    .venue {
+        width: 95vw;
+    }
+
+    .venue {
+        padding: 5px;
+    }
+}
