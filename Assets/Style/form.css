@@ -110,6 +110,10 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+form h3 {
+    margin: 10px auto;
+}
+
 @media (max-width: 500px) {
     .form {
         width: 90%;
