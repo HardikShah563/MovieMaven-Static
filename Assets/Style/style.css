@@ -156,11 +156,12 @@ nav {
 
 /* Scroll Bar CSS */
 ::-webkit-scrollbar {
-    width: 4px;
-    background-color: var(--off-black);
+    height: 2px;
+    padding: 20px;
+    background-color: var(--grey);
 }
 
 ::-webkit-scrollbar-thumb {
     background-color: var(--grey);
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
